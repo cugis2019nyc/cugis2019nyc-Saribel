@@ -46,3 +46,71 @@ math.pow(2.718281828459045,2)
 math.pow(35,9)
 35**9
 math.pi
+chocolate1= {"milk":5}
+chocolate2= {"dark":6}
+chocolate3= {"white":8}
+chocolatebox = {"milk":5,"dark":6,"white":8}
+
+student1 = ["Steve",32,"M"]
+student2 = ["Lia",28,"F"]
+student3 = ["Vin",45,"M"]
+student4 = ["Katie",38,"F"]
+
+student1[0]
+student1[1]
+student1[2]
+
+print(student1, student2, student3, student4)
+
+students =[student1, student2, student3, student4]
+students
+studentsinfo = [["Steve",32,"M"],["Lisa",28,"F"],["Vin",45,"M"],["Katie",38,"F"]]
+import plotly
+dir(pandas)
+wodf = pd.read_ex
+
+dir(plotly)
+from plotly.offline import plot
+import plotly.graph_objs as go
+
+agename = go.Bar(x=studentsdf["name"], y=studentsdf["age"])
+milk = 5
+milk = {5:"chocolate"}
+
+import pandas
+dir ("pandas")
+
+studentsdf = pandas.DataFrame(studentsinfo,columns=("Name","Age","Gender"))
+studentsdf
+studentsdf["Name"]
+chocolate1 = ["milk",5]
+chocolate2 = ["dark",6]
+chocolate3 = ["white",8]
+chocolatebox =[chocolate1,chocolate2,chocolate3]
+chocolatebox
+chocolateboxdf=pandas.DataFrame(chocolatebox,columns=("type","quality"))
+chocolateboxdf
+
+import plotly
+dir ("plotly")
+from plotly.offline import plot
+import plotly.graph_objs as go
+
+studentbar = go.Bar(x=studentsdf["Name"], y=studentsdf["Age"])
+plot([studentbar])
+wodf = pandas.read_excel("GISdata.xlsx",sheet_name = "womenOccupation")
+
+womenoccupation = go.Bar(x=wodf["occupation"], y=wodf["women"],
+                         marker = {"color": wodf["women"],
+                                   "colorscale":"Rainbow"})
+plot([womenoccupation])
+titles = go.Layout(title = "Percentage of Women Employed by Occupation",
+                   xaxis=go.layout.XAxis(title=go.layout.xaxis.Title(text="Occupation",
+                        )
+                    ),
+                    yaxis=go.layout.YAxis(title=go.layout.yaxis.Title(text="Percentage",
+                            )
+                        ),
+                    )
+    plot([womenoccupation])
+    
